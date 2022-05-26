@@ -1,0 +1,66 @@
+.user-fields {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	height: 50vh;
+	font-family: ZenLoop;
+	font-weight: 1000;
+	color: #410773;
+	text-shadow: 0px 0px 1px solid #410773;	
+	font-size: 30px;
+}
+.signin-fields {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 10vh;
+	padding: 10px;
+	width: 400px;
+}
+
+.register-fields {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 8vh;
+	padding: 5px;
+	width: 200px;
+
+}
+
+label {
+	margin: 10px;
+	text-decoration: underline;
+}
+input {
+	height: 30px;
+	border: 2px solid #410773;
+	box-shadow: 0px 0px 5px #410773;
+}
+fieldset {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #410773;
+	box-shadow: 0px 0px 5px #410773 inset ;
+	max-width: 600px;
+}
+legend {
+	text-shadow: 0px 0px 5px #743AA6;
+	text-decoration: underline;
+}
+
+.user-info {
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: space-around;
+}
+.registration-info {
+	display: flex;
+	justify-content: space-around;
+}
+
+h3 {
+	text-align: center;
+	text-decoration: underline;
+}

@@ -1,0 +1,45 @@
+.mission-statement {
+	display: flex;
+	align-items: center;
+	margin: 20px;
+	height: 60vh;
+	background: rgba(255, 255, 255, 0.2);
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 50px;
+}
+
+h1 {
+	font-family: ZenLoop;
+	letter-spacing: 2px;
+	font-size: 40px;
+	cursor: default;
+}
+
+img {
+	width: 300px;
+	border: 3px solid black;
+	border-radius: 150px;
+	margin: 10px;
+	box-shadow: 0px 0px 10px black;
+}
+.brief {
+	text-shadow: 0px 0px 1px #410773;
+	font-weight: 1000;
+	margin: 15px;
+	font-family: Zenloop;
+	color: #410773;
+	font-size: 28px;
+}
+
+@media screen and (max-width: 710px) {
+	.mission-statement {
+		height: 40vh;
+	}
+	h1 {
+		font-size: 25px;
+	}
+	img {
+		width:  200px;
+	}
+} 

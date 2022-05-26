@@ -1,25 +1,65 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import Title from './Components/Title/Title';
+import Home from './Components/Home/Home';
+import Footer from './Components/Footer/Footer';
+import UserAccounts from './Components/UserAccounts/UserAccounts'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      route: '/home'
+    }
+
+    }
+    updateRoute = (updated) => {
+      console.log(updated)
+      this.setState({route: updated})
+
+  }
+
+  render() {
+    const { route } = this.state;
+    
+    const renderSwitch = (param) => {
+      switch (param) {
+        case '/home':
+          return <Home />
+          break;
+        // case '/about':
+        //   return <About />
+        //   break;
+        // case '/contact':
+        //   return <Contact />
+        //   break;
+        // case '/book':
+        //   return <Book />
+        //   break;
+        case '/signin':
+        case '/register':
+          return <UserAccounts selection={this.state.route}/>
+          break;
+        default:
+          return;
+          break;
+      }
+    }
+
+    return(
+      <div className='.app'>
+        <Navbar updateRoute={this.updateRoute}/>
+        <Title />
+        {renderSwitch(route)}
+
+
+        <Footer />
+      </div>
+      )
+  }
 }
+
 
 export default App;
