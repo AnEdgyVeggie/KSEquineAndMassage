@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/businesswebsite/precache-manifest.cbbcd220e3cacc2b569f4393be1832f1.js"
+  "/KSEquineAndMassage/precache-manifest.a7eddc0cb893c03bf09b8693ce68384f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/businesswebsite/index.html", {
+workbox.routing.registerNavigationRoute("/KSEquineAndMassage/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
