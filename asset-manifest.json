@@ -1,0 +1,19 @@
+{
+  "main.css": "/businesswebsite/static/css/main.6a8a79a1.chunk.css",
+  "main.js": "/businesswebsite/static/js/main.c83d629c.chunk.js",
+  "main.js.map": "/businesswebsite/static/js/main.c83d629c.chunk.js.map",
+  "static/js/1.0b5adef5.chunk.js": "/businesswebsite/static/js/1.0b5adef5.chunk.js",
+  "static/js/1.0b5adef5.chunk.js.map": "/businesswebsite/static/js/1.0b5adef5.chunk.js.map",
+  "static/js/2.3f311bc8.chunk.js": "/businesswebsite/static/js/2.3f311bc8.chunk.js",
+  "static/js/2.3f311bc8.chunk.js.map": "/businesswebsite/static/js/2.3f311bc8.chunk.js.map",
+  "runtime~main.js": "/businesswebsite/static/js/runtime~main.e7e0e94d.js",
+  "runtime~main.js.map": "/businesswebsite/static/js/runtime~main.e7e0e94d.js.map",
+  "static/media/profile.jpg": "/businesswebsite/static/media/profile.09e99ac1.jpg",
+  "static/media/instagram.png": "/businesswebsite/static/media/instagram.d15f278c.png",
+  "static/media/action.jpg": "/businesswebsite/static/media/action.4d8ed02f.jpg",
+  "static/media/App.css": "/businesswebsite/static/media/ZenLoop.8a312b30.ttf",
+  "static/css/main.6a8a79a1.chunk.css.map": "/businesswebsite/static/css/main.6a8a79a1.chunk.css.map",
+  "index.html": "/businesswebsite/index.html",
+  "precache-manifest.cbbcd220e3cacc2b569f4393be1832f1.js": "/businesswebsite/precache-manifest.cbbcd220e3cacc2b569f4393be1832f1.js",
+  "service-worker.js": "/businesswebsite/service-worker.js"
+}
