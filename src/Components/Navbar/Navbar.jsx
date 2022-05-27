@@ -5,7 +5,7 @@ const Navbar = ({ updateRoute }) => {
 	return(
 		<div className='Navigation'>
 			<div className='subnav'>
-				<button onClick={() => updateRoute('/home')} >Home</button>
+				<button onClick={() => updateRoute('/')} >Home</button>
 				<p> | </p>
 				<button onClick={() => updateRoute('/about')}>About Us</button>
 				<p> | </p>

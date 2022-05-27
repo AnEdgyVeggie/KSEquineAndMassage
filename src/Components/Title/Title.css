@@ -6,13 +6,12 @@
 	border: 2px solid black;
 	flex-basis: 100%;
 	background: #F0DEFF;
-	margin-left:  13px;
+
 }
 .Title-text {
 	font-size: 10vh;
 	font-family: ZenLoop;
 	color:  #9173AB;
-	
 	text-shadow: -15px 15px 15px black,
 				-1px -1px 1px black,
 				-2px -1px 1px black,

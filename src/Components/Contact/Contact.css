@@ -1,0 +1,36 @@
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height:  45vh;
+	font-family: ZenLoop;
+}
+.contact-head {
+	margin: 20px;
+	display: flex;
+	color: #410773;
+	text-decoration: underline;
+	text-underline-position: under;
+	text-shadow: 0px 0px 1px #410773;
+	background: rgba(255, 255, 255, 0.2);
+	width: 400px;
+	justify-content: center;
+	height: 100px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px black;
+}
+.contact-methods {
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+}
+.contact-info {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	font-size: 23px;
+	font-weight: 1000;
+	color:  #410773;
+	text-shadow: 0px 0px 1px #410773;
+	letter-spacing: 1px;
+}

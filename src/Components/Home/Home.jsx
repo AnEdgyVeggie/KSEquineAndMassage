@@ -4,10 +4,10 @@ import profile from './profile.jpg';
 
 const Home = () => {
 	return(
-			<div>
+			<div className='home'>
 				<div className='mission-statement'>
 					<h1>Our mission is to improve the health and welfare of our 
-					clients dogs and horses through a combination of massage, 
+					clients' dogs and horses through a combination of massage, 
 					technology, experience and most importantly, compassion.</h1>
 					<img alt='profileimg' src={profile} />
 				</div>

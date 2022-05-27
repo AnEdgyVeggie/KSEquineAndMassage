@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;	
-	height: 50vh;
+	min-height: 44vh;
 	font-family: ZenLoop;
 	font-weight: 1000;
 	color: #410773;
@@ -63,4 +63,16 @@ legend {
 h3 {
 	text-align: center;
 	text-decoration: underline;
+}
+
+button.submit {
+	align-self: center;
+	border: 2px solid #410773;
+}
+
+.submit-button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
 }

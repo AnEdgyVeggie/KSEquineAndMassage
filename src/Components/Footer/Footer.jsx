@@ -10,14 +10,12 @@ const Footer = () => {
 				<a className='text-link' 
 				href='https://www.facebook.com/KSEquineK9Massage/'>Facebook</a>
 				<a className='text-link' 
-				href='https://www.facebook.com/KSEquineK9Massage/'>Instagram</a>
-				<a className='text-link' 
-				href='https://www.facebook.com/KSEquineK9Massage/'>Facebook</a>
+				href='https://www.instagram.com/ks_equine_k9_massage/'>Instagram</a>+
 			</div>
 			<div className='img-links'>
 				<a  href='https://www.facebook.com/KSEquineK9Massage/' >
 				<img className='img-link' src={Facebook} /> </a>
-				<a  href='https://www.facebook.com/KSEquineK9Massage/' >
+				<a  href='https://www.instagram.com/ks_equine_k9_massage/' >
 				<img className='img-link' src={Instagram} /> </a>
 			</div>
 		</div>

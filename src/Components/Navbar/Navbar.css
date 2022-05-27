@@ -7,7 +7,7 @@
 	position: sticky;
 	border-radius: 0px 0px 50px 50px;
 	background: #F0DEFF;
-	margin: -8px auto 15px 19px;
+	margin: -8px auto 15px auto;
 	text-shadow: 0px 0px 1px #410773;
 }
 .subnav {
@@ -17,9 +17,8 @@
 	padding-right: 20px;
 }
 button{
-	padding:  0px 3px 0px 3px;
+	padding:  0px 6px 0px 6px;
 	text-decoration: none;
-	font-size: 18px;
 	text-shadow: 0px 0px 2px white;
 	background: none;
 	border: none;
