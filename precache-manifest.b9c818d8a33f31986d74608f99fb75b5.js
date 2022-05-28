@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8a18a38814dad341ff77",
-    "url": "/KSEquineAndMassage/static/css/main.9d65fa7f.chunk.css"
+    "revision": "5e484076fa88ae6f728a",
+    "url": "/KSEquineAndMassage/static/css/main.71c1c311.chunk.css"
   },
   {
-    "revision": "8a18a38814dad341ff77",
-    "url": "/KSEquineAndMassage/static/js/main.8a18a388.chunk.js"
+    "revision": "5e484076fa88ae6f728a",
+    "url": "/KSEquineAndMassage/static/js/main.5e484076.chunk.js"
   },
   {
     "revision": "0b5adef5a8e99730695f",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/KSEquineAndMassage/static/media/ZenLoop.8a312b30.ttf"
   },
   {
-    "revision": "cf912939332ff2ce4d9729fb145d9daa",
+    "revision": "54e29f04c6d342a80c8e795b2aeb9126",
     "url": "/KSEquineAndMassage/index.html"
   }
 ];

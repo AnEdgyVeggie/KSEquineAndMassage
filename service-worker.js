@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/KSEquineAndMassage/precache-manifest.a7eddc0cb893c03bf09b8693ce68384f.js"
+  "/KSEquineAndMassage/precache-manifest.b9c818d8a33f31986d74608f99fb75b5.js"
 );
 
 workbox.clientsClaim();
